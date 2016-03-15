@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  height: 500px;
+  width: 800px; }
+
+.box {
+  background-color: #ccc;
+  height: 200px;
+  width: 400px;
+  position: relative; }
+
+.sector {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 50px;
+  border-style: solid;
+  border-color: #fc0 transparent transparent transparent;
+  border-radius: 50px; }
+
+.top-left {
+  top: -50px;
+  left: -50px;
+  transform: rotate(135deg); }
+
+.bottom-right {
+  top: 150px;
+  left: 350px;
+  transform: rotate(-45deg); }
+
+/*# sourceMappingURL=main.css.map */
